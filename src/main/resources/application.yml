@@ -1,0 +1,11 @@
+#端口和项目根目录
+server:
+  port: 8082
+  servlet:
+    context-path: /bbs
+
+spring: 
+  mvc: 
+    view: 
+      prefix: /WEB-INF/jsp/
+      suffix: .jsp
